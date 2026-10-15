@@ -1,7 +1,7 @@
 def powitanie(imie):
 	print(f"Cześć, {imie}! To świetny dzień na naukę!")
-def dodaj_liczby(a, b):
-    return a + b
+def odejmij_liczby(a, b):
+    return a - b
 if __name__ == "__main__":
     imie = input("Podaj swoje imię: ")
     powitanie(imie)
@@ -10,6 +10,6 @@ if __name__ == "__main__":
     b = int(input("Podaj drugą liczbę: "))
 
     wynik = dodaj_liczby(a, b)
-    print(f"Wynik dodawania {a} i {b} to: {wynik}")
+    print(f"Wynik odejmowania {a} i {b} to: {wynik}")
 
 
