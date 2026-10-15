@@ -13,4 +13,3 @@ if __name__ == "__main__":
     print(f"Wynik dodawania {a} i {b} to: {wynik}")
 
 
-print("Zmiana do cofnięcia")
